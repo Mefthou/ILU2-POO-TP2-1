@@ -9,6 +9,10 @@ public class Chef extends Gaulois {
 		super(nom, force);
 		this.village = village;
 	}
+	
+	public String getNom() {
+		return nom;
+	}
 
 	@Override
 	public void parler(String texte) {
